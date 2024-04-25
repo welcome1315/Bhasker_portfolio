@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhasker Muda</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <button class="btn btn-color-1" 
+                onclick="location.href='mailto:bmuda@rivier.edu'">
+                    Let's Connect!
+                </button>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Bhasker Muda</div>  
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/WhatsApp Image 2024-04-25 at 2.05.59 PM.jpeg" alt="Bhasker Muda profile picture" class="about-pic" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, this is</p>
+        <h1 class="title">Bhasker Muda</h1>
+        <p class="section__text__p2">I'm a, <span class="auto-type"></span>
+        </p>
+        
+            <div class="btn-container">
+                <button 
+                    class="btn btn-color-2" 
+                    onclick="window.open('./assets/Nandini Gollagadda.pdf')">
+                    Download CV
+                </button>
+                <button 
+                    class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./assets/linkedin.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='http://linkedin.com/in/bhasker-muda-941880172'"/>
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <div class="title1">
+            <h1 >About Me</h1>
+            <h3>Setting Dreams in Motion</h3>
+         </div>
+        <div class="section-container">
+            
+            <div class="about-details-container">
+            <div class="about-containers">
+            <div class="details-container" >
+                <div class="image-container">
+                   <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                    <h3>Experience</h3>
+                </div>
+                <div class="text-container">
+                    <p >I worked as a Software Developer Intern at Kivyo Inc. in Texas.
+                        <ul>
+                            <li>Python</li>
+                            <li> Java</li>
+                            <li> C</li>
+                            <li> HTML/CSS</li>
+                            <li> JavaScript</li>
+                            <li>SQL</li>
+                         </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="details-container">
+                <div class="image-container">
+                <img src="./assets/education.png" alt="Education icon" class="icon"/>
+                <h3>Education</h3>
+                </div>
+                <div class="text-container">
+                <p > I'm a passionate problem solver driven by a relentless pursuit 
+                     of innovation. I hold a Master's Degree in Computer and Information Sciences
+                        from Rivier University with a GPA of 3.75. My expertise spans 
+                        from cutting-edge algorithms to intuitive user experiences.
+                </p>
+                </div>
+            </div>
+            </div>
+                <div class="text-container" >
+                <h3>🌟Let's Connect</h3><br>
+                <p >A Computer Information System Student with a passion for exploring the 
+                    intricate workings of technology. My journey in this field has been
+                    driven by a curiosity to understand how systems function and how they 
+                    can be optimized to enhance user experiences. I am constantly learning 
+                    and adapting to the dynamic landscape of information systems, 
+                    striving to stay updated with the latest advancements. I'm also an artist
+                     and a violinist. I'm not just looking for a job; I'm on a mission to 
+                    contribute to transformative projects that make a difference. 
+                    If you're seeking a dynamic problem solver with a passion for 
+                    innovation and a track record of delivering tangible 
+                    results, let's connect and explore the possibilities together!
+                </p><br>
+                <button class="btn btn-color-1" 
+                onclick="location.href='mailto:bmuda@rivier.edu'">
+                 Let's Connect! 
+                </button>
+                </div>
+        </div>
+        
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'"/>
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details">
+        <div class="tab">
+            
+           <button class="tablinks" onclick="openTab(event, 'CGI Information Systems and Management Consultants Pvt.Ltd')">CGI</button>
+          
+       </div>
+
+       <div id="CGI Information Systems and Management Consultants Pvt.Ltd" class="tabcontent">
+        
+        <h5>
+            <b>Software Engineer</b>
+            <span class="date-heading">
+            <b>Hyderabad, India</b>
+            </span>
+        </h5>
+        <h3>
+            <b>March 2021 - January 2024</b>
+            <span class="date-heading">
+            <b>2Years 9Months</b>
+            </span>
+        </h3>
+        <ul class="list-details">
+            <li>Worked as a developer for Global Wealth and Capital Markets project that assists Fund Accounting and portfolio managers to manage their investment in stock markets.
+            </li>
+            <li> Handling Client queries, Batch Job failures, delays and troubleshooting within defined SLA's.</li>
+            <li>Having hand on experience in admin activities for Tableau, Tableau reports, incident, problem ticket, change and service request, reporting tools for daily operations.</li>  
+        </ul>
+        </div>     
+                </div>
+            </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#academics'"/>
+    </section>
+
+    <section id="academics">
+        <h1 class="title">Academics</h1>
+        <div class="academic-details">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'rivieruniversity')">Rivier University</button>
+            <button class="tablinks" onclick="openTab(event, 'college')">Vidya Jyothi Institute of Technology</button>
+           <button class="tablinks" onclick="openTab(event, 'hobbies')">Extra-Cirricular Activities</button>
+       </div>
+       <div id="rivieruniversity"  class="tabcontent">
+        <h5>
+            <b>Master of Science in Computer Information Sciences</b>
+            <span class="date-heading">
+            <b>January 2024 - Present</b>
+            </span>
+        </h5>
+        <b>GPA: <i>3.75</i></b>
+        <ul class="list-details">
+            <li>Object Oriented Design</li>
+            <li>Networking Technologies</li>
+            <li>Computer Science Fundamentals</li>
+        </ul>
+    </div>  
+        <div id="college"  class="tabcontent">
+            <h5>
+                <b>Bachelor of Science in Computer Science</b>
+                <span class="date-heading">
+                <b>August 2016 - September 2020</b>
+                </span>
+            </h5>
+            <b>GPA: <i>3.8</i></b>
+            <ul class="list-details">
+                <li>Object-Oriented Programming</li>
+                <li>C Programming</li>
+                <li>Java programming</li>
+                <li>Web Technologies</li>
+                <li>Data Structures</li>
+                <li>Operating Systems</li>
+                <li>Computer Networks</li>
+                <li>Linux Programming</li>
+            </ul>
+            
+    </div>  
+    <div id="hobbies"  class="tabcontent">
+        <h5><b>Extra-Cirricular Activities</b></h5>
+            <ul class="list-details">
+            <li>Scored 6.5 in IELTS Speaking.</li>
+            <li>Scored 320 in GRE Exam</li>
+            <li>Class representative in 1st and 2nd year of under graduation.</li>
+            <li>Active NCC cadet in organizing and participating in the events like Blood Donation Camps, Swachh Bharath, Yoga Day.</li>
+             </ul>
+            <h5><b>Hobbies</b></h5>
+            <ul class="list-details">
+            <li>Playing volley ball</li>
+            <li>Travelling</li>
+        </ul>
+    </div>  
+</div>        
+   
+    <section id="contact">
+
+
+<p class="section__text__p1"> Get in Touch</p>
+<h1 class="title">Contact Me</h1>
+<div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon"
+        class="icon contact-icon"/>
+        <p><a href="bmuda@rivier.edu">bmuda@rivier.edu</a></p>
+    
+    </div>
+    <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon"
+        class="icon contact-icon"/>
+        <p><a href="http://linkedin.com/in/bhasker-muda-941880172">LinkedIn</a></p>
+    
+    </div>
+</div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#profile">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> 
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Bhasker Muda.All Rights Reserved. </p>
+    </footer>
+
+ <script src="script.js"></script>   
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script>
+     var typed = new Typed(".auto-type", {
+         strings: ["Software Engineer", "Web Developer","Backend Software Developer "],
+         typeSpeed:150,
+         backSpeed:150,
+         loop: true
+           })
+
+ </script>
+
+<script>
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+
+
+
+
+</body>
+</html>
